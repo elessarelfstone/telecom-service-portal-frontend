@@ -1,0 +1,18 @@
+$container-width: 1000px;
+$footer-height : 400px;
+
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  overflow: hidden;
+  min-width: 1200px;
+  &:after{
+    content: "";
+    position: relative;
+    height: $footer-height;
+    display: block;
+  }
+}
